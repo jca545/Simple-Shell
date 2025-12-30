@@ -20,8 +20,8 @@ Adding an ampersand (`&`) at the end of the commamd results running the command 
 ```bash
 repository
 ├── CMakeLists.txt
-├── include/*.h     ## header files
 ├── gtest/*         ## test cases
+├── include/*.h     ## header files
 ├── src/*.c         ## implementations
 ```
 `gtest/` contains the test cases for grading. We use [Google Test](https://github.com/google/googletest/tree/main) to develop and run the test cases.
