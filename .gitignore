@@ -1,0 +1,7 @@
+**/.DS_Store
+*.o
+*.exe
+**/tags
+**/shell
+**/build
+**/a.out
