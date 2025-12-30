@@ -24,8 +24,7 @@ repository
 ├── gtest/*         ## test cases
 ├── src/*.c         ## implementations
 ```
-`gtest/` contains the test cases for grading. We use [Google
-  Test](https://github.com/google/googletest/tree/main) to develop and run the test cases.
+`gtest/` contains the test cases for grading. We use [Google Test](https://github.com/google/googletest/tree/main) to develop and run the test cases.
 
 
 
@@ -35,7 +34,7 @@ repository
 
 This project uses clang/clang++ for CMake compilation. 
 
-Make sure the following lines are in `~/.zshenv:
+Make sure the following lines are in `~/.zshenv`:
 ```bash
   $ export CC=$(which clang)
   $ export CXX=$(which clang++)
@@ -63,7 +62,7 @@ cmake -S . -B build
 # 2. Compilation
 cmake --build build
 ```
-This generates a executable file `shell` in the build directory
+This generates a executable file _shell_ in the build directory
 
 #### 3.3. Run shell
 ```bash
