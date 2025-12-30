@@ -80,11 +80,11 @@ cd build/
 <a name="features"></a>
 
 ## 4. Features
-This simple shell supports basic Linux commands. Type 'help' in the prompt to see more.
+This simple shell supports basic Linux commands. Type `help` in the prompt to see more.
 Note:
-- This simple shell doesn't support either '>' (output redirection) or '|' (pipe) well.
-- '!n' command runs command number n listed in history.
-- '!!' command runs the last command entered.
+- This simple shell doesn't support either `>` (output redirection) or `|` (pipe) well.
+- `!n` command runs command number n listed in history.
+- `!!` command runs the last command entered.
 
 
 
