@@ -1,5 +1,5 @@
 # Simple-Shell
-Long-Assignment for CMPT 201
+Long-Assignment for CMPT 201 - Systems Programming
 
 This project implements a simple shell that provides command line prompt.
 Adding an ampersand (`&`) at the end of the commamd results running the command in the background
